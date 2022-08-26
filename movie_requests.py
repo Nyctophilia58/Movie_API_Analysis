@@ -20,7 +20,7 @@ def request_data():
             genre = data['Genre']
             award_wins = int(data['Awards'].split(' ')[1]) + int(data['Awards'].split(' ')[3])
             award_nominations = int(data['Awards'].split(' ')[6])
-            box_office = data['BoxOffice']
+            # box_office = data['BoxOffice']
             info = [movie_title, runtime, genre, award_wins, award_nominations, box_office]
 
 
