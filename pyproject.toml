@@ -7,6 +7,7 @@ authors = ["Nyctophilia58 <nowshingdr@protonmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.10"
 requests = "^2.28.1"
+jupyter = "^1.0.0"
 
 [tool.poetry.dev-dependencies]
 
